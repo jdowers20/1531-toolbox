@@ -1,0 +1,16 @@
+# Object Oriented Design
+Object oriented design is a programming paradigm whereby a problem domain is broken down into objects in order to implement a solution.
+
+## Object Oriented Concepts
+In order to understand how the OO pparadigm can be used to produce programs, and therefore solve real problems, it is ecessary to understrand a few key concepts:
+	* Classes: Classes are the blueprints or templates from which objects can be created. Classes consist of two key features, attributes and methods:
+		* Attributes are the pieces of information or data which are used to define a class. For example a class called Human may have Eyes, Arms, Legs etc as attributes
+		* Methods are simply functions which belong to a particular class, and determine the behaviour that objects of a class may exhibit. For example, a class called Human might have methods called Talk, Walk, Grab etc
+	* Objects: Objects are instances of classes. When an object is created (instantiated), any of the attributes of its class are assigned values, and other parts of a system my interact with that object via the methods defined in the class.
+		* For example, if we have a class Human, then me, you, your friends and family etc are all objects of the class Human. We all have our own Ears, Eyes, Arms, Legs etc, and out world around us can interact with us via our methods, Walking, Talking, Grabbing, etc
+	* Inheritance: A class can inherit the methods and attribues of other classes via the process of inheritance.
+		* Inheritance is used when one class is a 'kind of' another class. For example, a Human is a 'kind of' Animal, or a Square is a 'kind of' Qaudrilateral
+	* Association: Associations define relationships between classes and the nature in which these related classes exist together. There are 3 main types:
+		* Aggregation: When an object of one class contains or consists of an object(s) of another class, they first is said to aggregate the second. In this kind of relationship, the first object is destroyed, then the aggregated object is not destroyed. For example, if we have a class called Human and a class called Car, a human object may aggregate car objects which they own, however destroying the human does not mean that the car objects they own are destroyed
+		* Composition: Composition, like aggregation, describes objects which contain or are consisted of objects of a different class, the key difference here being that these composed objects are strictly dependent on the composing objects existence. For example, if we have classes called Human and Arm, and human objects aggregate two arm objects, then destroying that human object should strictly destroy the two composed arm objects.
+		* Basic Association: The third relationship possible between classes is a basic association. This is when an object of one classe makes use of methods or attributes of another object of another class, but doesn't compose or aggregate it. For example, objects of the class Human may be associated to the type Cup, since the method Grab of a Human can use the Handle attribute of cup objects to function, but Humans neither aggregate, nor compose cups.
