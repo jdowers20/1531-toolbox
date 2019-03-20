@@ -1,5 +1,5 @@
 # 1531-toolbox
-A repo for COMP1531 students to keep up-to-date with coursework.
+A repo for COMP1531 students to keep up-to-date with coursework. This is meant to compliment the coursework for COMP1531, and, rather than give difinitive answers students may have about course content, provide another perspective which may help students reach an understanding about course concepts. Use this content verbatim at your own risk!!
 
 ## Contributing
 I encourage people to contribute to this repo as much as possible, provided proper branching techniques are used!
